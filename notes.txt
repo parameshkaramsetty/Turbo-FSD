@@ -1,0 +1,6 @@
+First Link it or import it to use icons and other things in the webpage
+
+For Icons : 
+For Font  : Use Google Font ; import and use it
+For Maps  : Use Share Link it in HTML
+For Videos : Use Embed URL
