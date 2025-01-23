@@ -1,1 +1,6 @@
 CSS - Cascading Style Sheets
+Can be applied to HTML
+In 3 Ways
+Inline
+Internal
+External
