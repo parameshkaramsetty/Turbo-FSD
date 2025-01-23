@@ -1,6 +1,1 @@
 CSS - Cascading Style Sheets
-Can be applied to HTML
-In 3 Ways
-Inline   - In HTML file itself like tag itself
-Internal - In head tag of the file itself
-External - by linking CSS file to the HTML file
