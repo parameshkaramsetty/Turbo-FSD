@@ -9,3 +9,24 @@ html, body {
   height: 100%;
 }
 /* Align-items - Y , Justify-content - X */
+
+/* Element Selector */
+div{
+
+}
+/* Class Selector */
+.class{
+
+}
+/* ID Selector */
+#id{
+
+}
+/* Child Selector - Direct Child */
+div > p{
+
+}
+/* Descendant Selector */
+div p{
+    /* All p tags inside div */
+}

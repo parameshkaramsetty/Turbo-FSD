@@ -1,1 +1,5 @@
 CSS - Cascading Style Sheets
+
+Styling can be applied in Inline > Internal > External
+
+Selectors
