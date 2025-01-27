@@ -2,4 +2,71 @@ CSS - Cascading Style Sheets
 
 Styling can be applied in Inline > Internal > External
 
-Selectors
+CSS Boilerplate 
+Ctrl+Shift+P > Code Snippets > CSS.json > add the following code there
+{
+	"Basic CSS Boilerplate": {
+	  "prefix": "CSS boilerplate",
+	  "body": [
+		"/* Reset */",
+		"*{",
+		"  margin: 0;",
+		"  padding: 0;",
+		"  box-sizing: border-box;",
+		"  cursor: pointer;",
+		"}",
+		
+		"html, body {",
+		"  width: 100%;",
+		"  height: 100%;",
+		"}",
+		"/* Align-items - Y , Justify-content - X */"
+
+		// "",
+		// "/* Basic typography */",
+		// "body {",
+		// "  font-family: Arial, sans-serif;",
+		// "  line-height: 1.6;",
+		// "  color: #333;",
+		// "  background-color: #f4f4f4;",
+		// "}",
+		// "",
+		// "/* Containers */",
+		// ".container {",
+		// "  width: 80%;",
+		// "  margin: auto;",
+		// "}",
+		// "",
+		// "/* Utility classes */",
+		// ".text-center {",
+		// "  text-align: center;",
+		// "}",
+		// "",
+		// ".clearfix::after {",
+		// "  content: '';",
+		// "  display: table;",
+		// "  clear: both;",
+		// "}",
+		// "",
+		// "/* Buttons */",
+		// ".button {",
+		// "  display: inline-block;",
+		// "  padding: 10px 20px;",
+		// "  border: none;",
+		// "  border-radius: 5px;",
+		// "  background-color: #007bff;",
+		// "  color: #fff;",
+		// "  text-align: center;",
+		// "  text-decoration: none;",
+		// "  font-size: 16px;",
+		// "}",
+		// "",
+		// ".button:hover {",
+		// "  background-color: #0056b3;",
+		// "}"
+	  ],
+	  "description": "A basic CSS boilerplate"
+	}
+  }
+  
+

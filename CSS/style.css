@@ -1,8 +1,9 @@
 /* Reset */
 *{
   margin: 0;
-  padding: 0;
+  padding: 0; 
   box-sizing: border-box;
+  cursor: pointer;
 }
 html, body {
   width: 100%;
@@ -35,5 +36,11 @@ div p{
     /* All p tags inside div */
     /* It can be anywhere inside div but it should be descendant to a div */
     /* like p tag can be anywhere inside the div like div>article>p ; div>section>p ; .... */
-    
+    /* It should be present inside div - it should come down from div */
+
+}
+
+/* Universal Selector */
+*{
+
 }
