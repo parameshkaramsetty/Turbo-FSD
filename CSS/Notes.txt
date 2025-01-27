@@ -70,3 +70,8 @@ Ctrl+Shift+P > Code Snippets > CSS.json > add the following code there
   }
   
 
+
+Box Model
+
+Margin < Border < padding < Content > padding > Border > Margin
+
