@@ -24,9 +24,10 @@ div{
 }
 /* Child Selector - Direct Child */
 div > p{
-  /* Immediate Child */
-  /* p inside a div */
+  /* Immediate Child  and any p inside a div will be applicable*/
+  /* any p inside a div */
 }
+
 /* Descendant Selector */
 div p{
     /* All p tags inside div */
