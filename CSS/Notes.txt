@@ -75,3 +75,9 @@ Box Model
 
 Margin < Border < padding < Content > padding > Border > Margin
 
+Total Width = Width + Left Padding + Right Padding + Left Border + Right Border + Left Margin + Right Margin
+
+Total Height = Height + Top Padding + Bottom Padding + Top Border + Bottom Border + Top Margin + Bottom Margin
+
+using box-sizing : border-box it if we give some value for height it includes the height along with padding , border and it doesnot include margin
+
