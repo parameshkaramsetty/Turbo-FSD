@@ -24,7 +24,8 @@ div{
 }
 /* Child Selector - Direct Child */
 div > p{
-
+  /* Immediate Child */
+  /* p inside a div */
 }
 /* Descendant Selector */
 div p{
