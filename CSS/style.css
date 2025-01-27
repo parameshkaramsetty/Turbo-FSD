@@ -12,7 +12,7 @@ html, body {
 
 /* Element Selector */
 div{
-
+  background-color: red;
 }
 /* Class Selector */
 .class{
@@ -26,9 +26,14 @@ div{
 div > p{
   /* Immediate Child  and any p inside a div will be applicable*/
   /* any p inside a div */
+  /* p as a direct child inside div */
+  color: white;
 }
 
 /* Descendant Selector */
 div p{
     /* All p tags inside div */
+    /* It can be anywhere inside div but it should be descendant to a div */
+    /* like p tag can be anywhere inside the div like div>article>p ; div>section>p ; .... */
+    
 }
