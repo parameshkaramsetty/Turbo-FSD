@@ -10,10 +10,3 @@ html, body {
   height: 100%;
 }
 /* Align-items - Y , Justify-content - X */
-div{
-  width: 800px;
-  font-size: 100px;
-  background-color: red;
-  line-height:75px;
-  letter-spacing: -3px;
-}
