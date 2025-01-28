@@ -69,6 +69,82 @@ Ctrl+Shift+P > Code Snippets > CSS.json > add the following code there
 	}
   }
   
+Selectors
+/* Reset */
+*{
+  margin: 0;
+  padding: 0; 
+  box-sizing: border-box;
+  cursor: pointer;
+}
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+/* Element Selector */
+div{
+  background-color: red;
+}
+/* Class Selector */
+.class{
+
+}
+/* ID Selector */
+#id{
+
+}
+/* Child Selector - Direct Child */
+div > p{
+  /* Immediate Child  and any p inside a div will be applicable*/
+  /* any p inside a div */
+  /* p as a direct child inside div */
+  color: white;
+}
+
+/* Descendant Selector */
+div p{
+    /* All p tags inside div */
+    /* It can be anywhere inside div but it should be descendant to a div */
+    /* like p tag can be anywhere inside the div like div>article>p ; div>section>p ; .... */
+    /* It should be present inside div - it should come down from div */
+
+}
+
+/* Universal Selector */
+*{
+
+}
+
+/* Pseudo Selectors */
+/* anchor tag  */
+a:visited{
+
+}
+a:link{
+
+}
+a:active{
+
+}
+/* Effects - Hover  */
+a:hover{
+
+}
+
+/* Child */
+p:first-child{
+  /* if p is a first child of its parent then it is applicable */
+}
+p:nth-child(4){
+
+}
+p:last-child{
+
+}
+p:nth-last-child(2){
+
+}
 
 
 Box Model
@@ -80,4 +156,18 @@ Total Width = Width + Left Padding + Right Padding + Left Border + Right Border 
 Total Height = Height + Top Padding + Bottom Padding + Top Border + Bottom Border + Top Margin + Bottom Margin
 
 using box-sizing : border-box it if we give some value for height it includes the height along with padding , border and it doesnot include margin
+Margin Collapse - when margin is given to divs or boxes in between these objects it takes only the max.margin of the objects only when they are coinciding
+
+Fonts:
+font-family
+font-weight
+font-size
+font-Style
+
+How to use some special font?
+use google Fonts
+open google fonts
+1.import url for the required font in css file in style tag of head tag in html file and at last paste the css code available in google fonts itself
+2.using the link of the font and paste it in the head tag of the html
+we can also import multiple fonts and it to our page and use import statement or link 
 

@@ -1,7 +1,7 @@
 /* Reset */
 *{
   margin: 0;
-  padding: 0; 
+  padding: 0;
   box-sizing: border-box;
   cursor: pointer;
 }
@@ -10,67 +10,10 @@ html, body {
   height: 100%;
 }
 /* Align-items - Y , Justify-content - X */
-
-/* Element Selector */
 div{
+  width: 800px;
+  font-size: 100px;
   background-color: red;
-}
-/* Class Selector */
-.class{
-
-}
-/* ID Selector */
-#id{
-
-}
-/* Child Selector - Direct Child */
-div > p{
-  /* Immediate Child  and any p inside a div will be applicable*/
-  /* any p inside a div */
-  /* p as a direct child inside div */
-  color: white;
-}
-
-/* Descendant Selector */
-div p{
-    /* All p tags inside div */
-    /* It can be anywhere inside div but it should be descendant to a div */
-    /* like p tag can be anywhere inside the div like div>article>p ; div>section>p ; .... */
-    /* It should be present inside div - it should come down from div */
-
-}
-
-/* Universal Selector */
-*{
-
-}
-
-/* Pseudo Selectors */
-/* anchor tag  */
-a:visited{
-
-}
-a:link{
-
-}
-a:active{
-
-}
-/* Effects - Hover  */
-a:hover{
-
-}
-
-/* Child */
-p:first-child{
-  /* if p is a first child of its parent then it is applicable */
-}
-p:nth-child(4){
-
-}
-p:last-child{
-
-}
-p:nth-last-child(2){
-
+  line-height:75px;
+  letter-spacing: -3px;
 }
